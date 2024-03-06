@@ -1,5 +1,5 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import clsx from 'clsx'; // Allows you to conditionally style an element based on state or some other condition.
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
